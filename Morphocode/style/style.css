@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Titillium Web',sans-serif;
+}
+
+
+/*header
+=======================================*/
+.header-inner{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link{
+    text-decoration: none;
+    color: rgba(102, 102, 102, 0.85);
+    font-weight: 800;
+    line-height: 16px;
+    padding-right: 30px;
+}
+
+/*intro
+================================================*/
+.intro-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.intro-text h1{
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0.25px;
+    color: #4A4A4A;
+    width: 590px;
+    padding-bottom: 30px;
+    
+}
+.intro-text p{
+    width: 540px;
+    font-size: 18px;
+    line-height: 30px;
+    color:  #434A54;
+    padding-bottom:30px ;
+}
+
+.intro-text a{
+    letter-spacing: 0,25px;
+    color:  #434A54;
+}
+
+
+
+/*BLOG
+=========================================================*/
+.blog{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.card{
+    position: relative;
+}
+.card img{
+width: 375px;
+}
+.card-content{
+    padding: 20px;
+    width: 240px;
+    background-color: white;
+    position: absolute;
+    top: 140px;
+    left: 25px;
+}
+.card hr{
+    width: 30px;
+    height: 2px;
+    background-color: white;
+    border: none;
+}
+.card-content h2{
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.25px;
+    color: #434A54;
+}
+.card p{
+    font-size: 15px;
+    line-height: 26px;
+    color: black;
+}
+
+.cards-frist-row{
+    padding-bottom: 200px;
+    display: flex;
+}
+
+/*Start
+=====================================================*/
+.start{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+}
+.start-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.start-inner h1{
+    padding-bottom: 30px;
+}
+.form input{
+    width: 260px;
+    height: 20px;
+    padding: 20px;
+}
+.form button{
+    padding: 22px;
+    background-color: #1d6ff3;
+    color: white;
+    border: none;
+}
+
+
+
+/*footer
+================================*/
+.footer-content{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+}
+.footer-content ul{
+ list-style: none; 
+}
