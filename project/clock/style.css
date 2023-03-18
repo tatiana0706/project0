@@ -1,0 +1,35 @@
+*{
+    max-width: 1500px;
+    margin: 0;
+    padding: auto 0;
+}
+
+#clock{
+color: white;
+text-align: center;
+margin-top: 325px;
+font-size: 70px;
+border: solid white;
+}
+.clock-in{
+    background-color: black;
+}
+.header{
+    width: 100%;
+
+}
+.header-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding-left: 15%;
+}
+.footer-inner{
+    padding-top: 200px;
+    display: flex;
+    
+}
