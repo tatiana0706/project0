@@ -1,0 +1,90 @@
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+*{
+    padding:0;
+    margin: 0;
+}
+/*Header
+============================================================================*/
+.header{
+    position: absolute;
+    width: 100%;
+    background-color: white;
+   
+}
+
+
+.header-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding-right: 35px;
+
+}
+.head-button{
+    padding: 10px 20px;
+
+    border: 2px solid rgb(0, 10, 204);
+    background-color: rgb(0, 10, 204) ;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: all 0.4s;
+
+}
+
+.head-button:hover{
+    background-color: rgba(13, 0, 255, 0.474);
+        color: rgb(255, 255, 255);
+}
+/*Intro
+=============================================*/
+.intro-img{
+    position: absolute;
+width: 700px;
+height: 400px;
+left: 617px;
+top: 1px;
+
+   }
+.intro-inner{
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    left: 10%;
+    color: rgb(13, 0, 255);
+}
+.intro-inner h1{
+    height: 10px;
+    left: 23px;
+    top: 20px;
+}
+.intro-inner p{
+    position: absolute;
+width: 484px;
+height: 56px;
+left: 1px;
+top: 45px;
+}
+.intro-button{
+ position: absolute;
+width: 180px;
+height: 66px;
+left: 15px;
+top: 145px;
+text-decoration: none;
+background-color: #00ECD0;
+color: white;
+border-radius: 10px;
+transition: all .4s;
+}
+.intro-button:hover{
+    background-color: rgba(11, 103, 69, 0.178);
+    color:black ;
+}
